@@ -1,0 +1,9 @@
+.todaydate {
+  color: aliceblue;
+  font-size: 32px;
+  border: 1px solid white;
+  margin: 1rem;
+  padding: 4rem;
+  background-color: rgba(240, 248, 255, 0.248);
+  border-radius: 10px;
+}

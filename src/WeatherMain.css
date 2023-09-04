@@ -1,0 +1,59 @@
+.box-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.box-second {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box-first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-title {
+  text-align: center;
+  color: aliceblue;
+  font-size: 64px;
+}
+.box-weather {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+input {
+  width: 60%;
+  height: 2rem;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  font-size: 20px;
+}
+
+button {
+  border-radius: 10px;
+  margin-left: 5px;
+  height: 2.5rem;
+  width: 6rem;
+  margin-bottom: 2rem;
+}
+
+.line {
+  margin: 2rem;
+  background-color: white;
+  height: 4px;
+  text-align: center;
+}
+
+@media screen and (min-width: 378px) and (max-width: 600px) {
+  .box-weather {
+    display: flex;
+    flex-direction: column;
+  }
+}
